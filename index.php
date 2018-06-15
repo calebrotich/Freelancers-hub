@@ -61,7 +61,7 @@
           <!---nav-collapse-->
           <div class="hero" id="highlighted">
           <div class="inner">
-          
+
             <!--Slideshow-->
             <div id="highlighted-slider" class="container">
               <div class="item-slider" data-toggle="owlcarousel" data-owlcarousel-settings='{"singleItem":true, "navigation":true, "transitionStyle":"fadeUp"}'>
