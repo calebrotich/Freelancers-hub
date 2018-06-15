@@ -9,6 +9,10 @@
 <link rel="stylesheet" href="css/login.css" media="screen" title="no title" charset="utf-8">
 <link rel="stylesheet" href="../user/style.css" media="screen" title="no title" charset="utf-8">
 
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900" rel="stylesheet">
+
+<!-- Bootstrap CSS File -->
 <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Libraries CSS Files -->
@@ -17,14 +21,8 @@
 <link href="lib/owlcarousel/owl.theme.min.css" rel="stylesheet">
 <link href="lib/owlcarousel/owl.transitions.min.css" rel="stylesheet">
 
-<!-- Main Stylesheet File -->
-<link href="css/style.css" rel="stylesheet">
-
-<!--Your custom colour override - predefined colours are: colour-blue.css, colour-green.css, colour-lavander.css, orange is default-->
-<link href="#" id="colour-scheme" rel="stylesheet">
-
 </head>
-<body background="../imgresource/eaglefly.jpg">
+<body background="metro.png">
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
@@ -45,6 +43,7 @@
 		</div>
 	</nav>
 
+
 	<div class="lgnfrmcvr">
 		<div class="form">
 		<h3><span class="glyphicon glyphicon-log-in"></span> Log In</h3>
@@ -61,10 +60,17 @@
 			<label for="password">PASSWORD</label>
 			<input type="password" class="form-control" name="password" placeholder="Password" id="password" required />
 		</div>
+		<div class="checkbox">
+			<label>
+				<input name="remember" type="checkbox" value="Remember Me">
+				Remember Me
+			</label>
+		</div>
 		<br>
 	<div class="form-group log_hold">
-		<input name="submit" type="button" id="login" class="btn btn-md btn-default" value="Log in" />
+  <input class="btn btn-lg btn-primary btn-block" type="submit" value="Login">
 	</div>
+
 		</form>
 		<p>Not registered yet? <a href='reg.php'>Register Here</a></p>
 		</div>

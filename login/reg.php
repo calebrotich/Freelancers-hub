@@ -15,7 +15,7 @@ include 'db.php';
 
 </style>
 </head>
-<body><!--background="../imgresource/eaglefly.jpg">-->
+<body background="metro.png">
 
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
@@ -134,10 +134,16 @@ include 'db.php';
 
 
 		<div class="form-group">
-			<input type="button" onclick="checkForm()" class="btn btn-default btn-lg btn-default" value="Register" />
+      <div class="checkbox">
+                <label>
+                  <input name="remember" type="checkbox" value="Terms">
+                  I agree to the <a href="#">terms and conditions</a>.
+                </label>
+              </div><br>
+			<input type="button" onclick="checkForm()" class="btn btn-lg btn-primary btn-block" value="Register" />
       <p>
   			Already have an account?
-  			<a href="login.php">Login</a>
+  			<a href="login.php">Login Here</a>
   		</p>
 		</div>
 

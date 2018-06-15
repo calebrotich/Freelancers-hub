@@ -1,7 +1,7 @@
 
 <?php
 error_reporting(E_ALL ^ E_DEPRECATED);
-$connection = mysqli_connect('localhost', 'root','tiger');
+$connection = mysqli_connect('localhost', 'root','');
 if (!$connection){
     die("Database Connection Failed" . mysqli_error());
 }
