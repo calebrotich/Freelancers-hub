@@ -24,13 +24,10 @@
             <div class="row">
     <div class="container">
             <div class="navbar navbar-default">
-              <!--mobile collapse menu button-->
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-              <!--social media icons-->
-                <ul class="navbar-text user-menu pull-right">
-                <li class="hidden-xs"><i class="fa fa-edit text-primary"></i> <a href="Register.php">Register</a></li>
-                <li class="hidden-xs"><i class="fa fa-sign-in text-primary"></i> <a href="Login.php">Login</a></li>
-              </ul>
+      				<ul class="nav navbar-nav navbar-right">
+      					<li><a href="login/reg.php"><span class="glyphicon glyphicon-sign-up"></span>Register</a></li>
+      					<li><a href="login/login.php"><span class="glyphicon glyphicon-sign-in"></span>Login</a></li>
+      				</ul>
               <!--everything within this div is collapsed on mobile-->
               <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav" id="main-menu">
@@ -234,28 +231,15 @@
 
           <div class="col-md-3">
             <h4>Freelancer</h4>
-            <li>Categories</li>
-            <li>Projects</li>
-            <li>Freelancers</li>
-            <li>Enterprise</li>
-            <li>Project Management</li>
-            <li>API for Developers</li>
           </div>
           <div class="col-md-3">
             <h4>About</h4>
             <ul>
-              <li>About us</li>
-              <li>How it works</li>
-              <li>Sitemap</li>
-              <li>Quotes</li>
-              <li>News</li>
             </ul>
           </div>
           <div class="col-md-3">
             <h4>Apps</h4>
             <ul>
-              <li></li>
-              <li></li>
             </ul>
             <!--social media icons-->
         <div class="navbar-text social-media social-media-inline">

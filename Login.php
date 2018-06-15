@@ -29,10 +29,7 @@
     <!--Your custom colour override - predefined colours are: colour-blue.css, colour-green.css, colour-lavander.css, orange is default-->
     <link href="#" id="colour-scheme" rel="stylesheet">
   </head>
-
-  <!-- ======== @Region: body ======== -->
   <body class="fullscreen-centered page-login">
-    <!--Change the background class to alter background image, options are: benches, boots, buildings, city, metro -->
     <div id="background-wrapper" class="benches" data-stellar-background-ratio="0.8">
 
       <!-- ======== @Region: #content ======== -->
