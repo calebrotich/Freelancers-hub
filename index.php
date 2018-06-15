@@ -1,321 +1,221 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="" name="keywords">
+<meta content="" name="description">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME | JOBS forum</title>
-     <?php include 'bootstrap.php'; ?>
-    <link rel="stylesheet" href="css/navbar.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
+    <title> Freelancers' Hub</title>
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/owl.theme.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/owl.transitions.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet">
   </head>
-  <body id="body">
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-
+  <body class="page-index has-hero">
+      <div id="background-wrapper" class="buildings" data-stellar-background-ratio="0.1">
+          <div class="header-inner container">
+            <div class="row">
+    <div class="container">
+            <div class="navbar navbar-default">
+              <!--mobile collapse menu button-->
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+              <!--social media icons-->
+                <ul class="navbar-text user-menu pull-right">
+                <li class="hidden-xs"><i class="fa fa-edit text-primary"></i> <a href="Register.php">Register</a></li>
+                <li class="hidden-xs"><i class="fa fa-sign-in text-primary"></i> <a href="Login.php">Login</a></li>
+              </ul>
+              <!--everything within this div is collapsed on mobile-->
+              <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav" id="main-menu">
+                  <li class="icon-link">
+                    <a href="Home.html"><i class="fa fa-home"></i></a>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Post a job<b class="caret"></b></a>
+                    <!-- Dropdown Menu -->
+                    <ul class="dropdown-menu">
+                    </ul>
+                  </li>
+                  <li class="dropdown dropdown-mm">
+                    <a href="Chat.php" class="dropdown-toggle" data-toggle="dropdown">Chat Us<b class="caret"></b></a>
+                    <!-- Dropdown Menu -->
+                  </li>
+                  <li><a href="Find.php">Find a job</a>
+                  </li>
+                  <li><a href="Works.php">How it works</a>
+                  </li>
+                </ul>
+              </div>
+              <!--/.navbar-collapse -->
+            </div>
+          </div>
+          </div>
+          </div>
+          <!---nav-collapse-->
+          <div class="hero" id="highlighted">
+          <div class="inner">
+            <!--Slideshow-->
+            <div id="highlighted-slider" class="container">
+              <div class="item-slider" data-toggle="owlcarousel" data-owlcarousel-settings='{"singleItem":true, "navigation":true, "transitionStyle":"fadeUp"}'>
+                <!--Slideshow content-->
+                <!--Slide 1-->
+                <div class="item">
+                  <div class="row">
+                    <div class="col-md-6 col-md-push-6 item-caption">
+                      <h2 class="h1 text-weight-light">
+                        Post & Find Freelancers</h2>
+                        <h3>Browse For Free.You Post we find job done</h3><br>
+                      <p><h4>Freelancer makes it easy for Clients and Freelancers to connect, chat,collaborate and get workdone flexibly and securely.</h4></p>
+                    </div>
+                    <div class="col-md-6 col-md-pull-6 hidden-xs">
+                      <img src="img/phpmage.jpg" alt="Slide 1" class="center-block img-responsive">
+                    </div>
+                    <hr> </hr>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+</div>
+<div id="content">
+      <!-- Mission Statement -->
+      <div class="mission text-center block block-pd-sm block-bg-noise">
+        <div class="container">
+          <h2 class="text-shadow-white"><b>
+            Need Work Done? </b></h2>
+            <p><h4>It's easy, Simply post a job need completed and receive competitive bids from freelancers within minutes.</h4></p>
+        </div>
+      </div>
+      <!--Showcase-->
+      <!--div class="showcase block block-border-bottom-grey">
+        <div class="container">
+          <h2 class="block-title">
+            Events
+          </h2>
+          <div class="item-carousel" data-toggle="owlcarousel" data-owlcarousel-settings='{"items":4, "pagination":false, "navigation":true, "itemsScaleUp":true}'>
+            <div class="item">
+              <a href="#" class="overlay-wrapper">
+                <img src="img/project11.png" alt="Project 11 image" class="img-responsive underlay">
+                <span class="overlay">
+                  <span class="overlay-content"> <span class="h4">Photoshoot </span> </span>
+                </span>
+              </a>
+              <div class="item-details bg-noise">
+                <h4 class="item-title">
+                  <a href="#">Event 1</a>
+                </h4>
+                <a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a>
+              </div>
+            </div>
+            <div class="item">
+              <a href="#" class="overlay-wrapper">
+               <img src="img/project11.png" alt="Project 11 image" class="img-responsive underlay">
+                <span class="overlay">
+                  <span class="overlay-content"> <span class="h4">Birthday</span> </span>
+                </span>
+              </a>
+              <div class="item-details bg-noise">
+                <h4 class="item-title">
+                  <a href="#">Event 2</a>
+                </h4>
+                <a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a>
+              </div>
+            </div>
+            <div class="item">
+              <a href="#" class="overlay-wrapper">
+                <img src="img/project11.png" alt="Project 11 image" class="img-responsive underlay">
+                <span class="overlay">
+                  <span class="overlay-content"> <span class="h4">Wedding</span> </span>
+                </span>
+              </a>
+              <div class="item-details bg-noise">
+                <h4 class="item-title">
+                  <a href="#">Event 3</a>
+                </h4>
+                <a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a>
+              </div>
+            </div>
+            <div class="item">
+              <a href="#" class="overlay-wrapper">
+                <img src="img/project11.png" alt="Project 11 image" class="img-responsive underlay">
+                <span class="overlay">
+                  <span class="overlay-content"> <span class="h4">Graduation</span> </span>
+                </span>
+              </a>
+              <div class="item-details bg-noise">
+                <h4 class="item-title">
+                  <a href="#">Event 4</a>
+                </h4>
+                <a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a>
+              </div>
+            </div>
+        </div>
+      </div-->
+      <div class="services block block-bg-gradient block-border-bottom">
+        <div class="container">
+          <h2 class="block-title">
+            Our Services
+          </h2>
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <span class="fa-stack fa-5x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-group fa-stack-1x fa-inverse"></i> </span>
+              <h4 class="text-weight-strong">
+               Data Entry
+              </h4>
+              <!--p>We connect users with entertainers.</p-->
+              <p>
+                <a href="#" class="btn btn-more i-right">REGISTER <i class="fa fa-angle-right"></i></a>
+              </p>
+            </div>
+            <div class="col-md-4 text-center">
+              <span class="fa-stack fa-5x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-pencil fa-stack-1x fa-inverse"></i> </span>
+              <h4 class="text-weight-strong">
+                Article Writing
+              </h4>
+              <!--p>Rhoncus adipiscing, magna integer cursus augue eros lacus porttitor magna. Dictumst, odio! Elementum tortor sociis in eu dis dictumst pulvinar lorem nec aliquam a nascetur.</p-->
+                           <p>
+                <a href="#" class="btn btn-more i-right">REGISTER <i class="fa fa-angle-right"></i></a>
+              </p>
+            </div>
+            <div class="col-md-4 text-center">
+              <span class="fa-stack fa-5x">
+              <i class="fa fa-circle fa-stack-2x text-primary"></i>
+              <i class="fa fa-cogs fa-stack-1x fa-inverse"></i> </span>
+              <h4 class="text-weight-strong">
+                Website Development
+              </h4>
+              <!--p>Rhoncus adipiscing, magna integer cursus augue eros lacus porttitor magna. Dictumst, odio! Elementum tortor sociis in eu dis dictumst pulvinar lorem nec aliquam a nascetur.</p-->
+              <p>
+                <a href="#" class="btn btn-more i-right">REGISTER <i class="fa fa-angle-right"></i></a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="block block-pd-sm block-bg-grey-dark block-bg-overlay block-bg-overlay-6 text-center" data-block-bg-img="https://picjumbo.imgix.net/HNCK1088.jpg?q=40&amp;w=1650&amp;sharp=30" data-stellar-background-ratio="0.3">
+      <h2 class="h-xlg h1 m-a-0">
+        <span data-counter-up>1000</span>s
+      </h2>
+      <h3 class="h-lg m-t-0 m-b-lg">
+        Of Happy Customers!
+      </h3>
       <p>
-        <span><img class="navbar-brand icon" src="images/icon.jpg" alt="" />
-        <a href="#" class="navbar-brand"></span>Freelancers' Hub<br><span class="motto">Expand your Horizon</span></a>
+        <a href="#" class="btn btn-more btn-lg i-right">Join them today! <i class="fa fa-angle-right"></i></a>
       </p>
     </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>  HOME</a></li>
-        <li><a href="login/reg.php"><span class="glyphicon glyphicon-pencil"></span>  REGISTER</a></li>
-
-<li><a href="user/account.php?topic=All topics"><span class="glyphicon glyphicon-user"></span>  ACCOUNT</a></li>
-
-
-        <li><a href="login/login.php"><span class="glyphicon glyphicon-log-in"></span>  LOGIN</a></li>
-      </ul>
-    </div>
+      </div>
   </div>
-</nav>
-
-
-  <div class="container-fluid face" >
-  <img class="container-fluid faceimage" id="face" src="images/preflens.jpg" alt="" />
-<div class="texttop text-center">
-  <P><h1>Welcome to Freelancers' Hub</h1></P>
-  <h4>Grow your network</h4>
-</div>
-  <div class="imagetop">
-
-    <a class="btn btn-default btn-lg" href="login/reg.php">REGISTER</a>
-    <a class="btn btn-default btn-lg" href="login/login.php">LOGIN</a>
-  </div>
-  </div>
-
-<!-- <div class="container face_small">
-  <h3>WELCOME TO Freelancers' Hub</h3>
-  <a class="btn btn-default btn-lg" href="login/reg.php">REGISTER</a>
-  <a class="btn btn-default btn-lg" href="login/login.php">LOGIN</a>
-</div> -->
-<hr>
-<div class="container dopanels text-center">
-
-  <h4 class="text-center title">WHAT WE DO</h4>
-  <span class="descriptor">Know and interact with our specialities</span>
-  <div class="row">
-    <div class="col-sm-4">
-      <div class="panel">
-        <div class="panel-heading">
-          <h4>JOB LINKS</h4>
-        </div>
-        <div class="panel-body">
-          <span class="glyphicon gly glyphicon-briefcase"></span>
-          <p>Job posting</p>
-          <p>Job searching</p>
-          <p>Expert discussions</p>
-        </div>
-        <div class="panel-footer">
-          <a class="btn btn-danger" href="login/reg.php">START WORKING</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="panel">
-        <div class="panel-heading">
-        <h4>ADVERTISEMENTS</h4>
-        </div>
-        <div class="panel-body">
-<span class="glyphicon gly glyphicon-bullhorn"></span>
-<p>
-  Business Adverts
-</p>
-<p>
-  Personal Adverts
-</p>
-<p>
-  Company adverts
-</p>
-        </div>
-        <div class="panel-footer">
-          <a class="btn btn-danger" href="login/reg.php">BE KNOWN</a>
-        </div>
-      </div>
-      </div>
-
-    <div class="col-sm-4">
-      <div class="panel">
-        <div class="panel-heading">
-          <h4>CONNECTIONS</h4>
-        </div>
-        <div class="panel-body">
-          <span class="glyphicon gly glyphicon-circle-arrow-up"></span>
-          <p>
-            Through Social platform
-          </p>
-          <p>
-            Interactive forum
-          </p>
-          <p>
-            Topic discussions
-          </p>
-        </div>
-        <div class="panel-footer">
-          <a class="btn btn-danger" href="login/reg.php">START GROWING</a>
-        </div>
-      </div>
-      </div>
-    </div>
-    </div>
-    <hr>
-
-<div class="container row say">
-  <h4 class="text-center title">PEOPLE'S SAY</h4>
-  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-      <h4>"Reviews will appear here"<br><span style="font-style:normal;">First reviewer</span></h4>
-      </div>
-      <div class="item">
-        <h4>"Reviews will appear here"<br><span style="font-style:normal;">second reviewer</span></h4>
-      </div>
-      <div class="item">
-        <h4>"Reviews will appear here"<br><span style="font-style:normal;">Third reviewer</span></h4>
-      </div>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-
-</div>
-
-<hr>
-
-    <div class="container" id="contact">
-      <h4 class="text-center title">CONTACT</h4>
-      <div class="row test">
-        <div class="col-md-4">
-          <h4 class="title">Contact Freelancers' Hub</h4>
-          <p><span class="glyphicon glyphicon-map-marker title"></span> Nyeri, Kenya</p>
-          <p><span class="glyphicon glyphicon-phone title"></span> Phone: +254 732 094 466</p>
-        <!--  <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>-->
-        </div>
-        <div class="col-md-8">
-          <div class="row">
-            <div class="col-sm-6 form-group">
-              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-            </div>
-            <div class="col-sm-6 form-group">
-              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-            </div>
-          </div>
-          <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-          <br>
-          <div class="row">
-            <div class="col-md-12 form-group">
-              <button class="btn pull-right" type="submit">Send</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--CAROUSEL-->
-    <!--<div class="container text-center">
-      <h3>WHAT PEOPLE SAY</h3>
-      <div id="myCarousel" class="carousel-slide" data-ride="carousel">
-
-
-
-<div class="carousel-inner" role="listbox">
-  <div class="item active">
-    <blockquote>
-      My friend has changed profile <br>
-      <span>Duncan, Engineer</span>
-    </blockquote>
-  </div>
-  <div class="item">
-    <blockquote>
-      It is the next big thing <br>
-      <span>Jane, Marketer</span>
-    </blockquote>
-  </div>
-  <div class="item">
-    <blockquote>
-      It is quite beneficial <br>
-      <span>Ivy, Computer scientist</span>
-    </blockquote>
-  </div>
-</div>
-
-      </div>
-    </div>
-    <!--/CAROUSEL-->
-
-
-<!--
-    <hr>
-  <div class="container text-center">
-    <h3>SUBSCRIPTION PLAN</h3>
-    <span class="descriptor">Choose a plan that works best for you</span>
-<div class="row">
-  <div class="col-sm-4">
-    <div class="panel panel-default panbasic">
-      <div class="panel-heading basic">
-<h4>BASIC</h4>
-      </div>
-      <div class="panel-body">
-
-      </div>
-      <div class="panel-footer">
-        <p style="color: #000; font-size:18px;"><span class="glyphicon glyp glyphicon-tag"></span>FREE</p>
-        <a class="btn btn-danger" href="login/reg.php">REGISTER</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-4">
-    <div class="panel panel-default pangolden">
-      <div class="panel-heading golden">
-<h4>GOLDEN</h4>
-      </div>
-      <div class="panel-body">
-
-      </div>
-      <div class="panel-footer">
-        <p style="color: #000; font-size:18px;"><span class="glyphicon glyp glyphicon-tag"></span>Kes. 5000</p>
-        <a class="btn btn-danger" href="login/reg.php">REGISTER</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-4">
-    <div class="panel panel-default pansilver">
-      <div class="panel-heading silver">
-<h4>SILVER</h4>
-      </div>
-      <div class="panel-body">
-
-      </div>
-      <div class="panel-footer">
-        <p style="color: #000; font-size:18px;"><span class="glyphicon glyp glyphicon-tag"></span>Kes. 2500</p>
-        <a class="btn btn-danger" href="login/reg.php">REGISTER</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-  </div>
--->
-  <a href="#body" class="backtop"><span title="Back To Top" class="glyphicon glyphicon-arrow-up"></span></a>
-
-
-  <div class="container-fluid">
-    <?php
-    include 'footer.php';
-     ?>
-  </div>
-  <script type="text/javascript">
-  function myTimer() {
-      var d = new Date();
-      document.getElementById("timer").innerHTML = d.toLocaleTimeString();
-
-
-  }
-  </script>
-  <script type="text/javascript">
-  $(document).ready(function() {
-    var offset = 220;
-    var duration = 1000;
-    $(window).scroll(function() {
-        if ($(this).scrollTop() > offset) {
-            $('.backtop').fadeIn(duration);
-        } else {
-            $('.backtop').fadeOut(duration);
-        }
-    });
-
-    $('.backtop').click(function(event) {
-        event.preventDefault();
-        $('html, body').animate({scrollTop: 0}, duration);
-        return false;
-    })
-  });
-  </script>
-
   </body>
 </html>
