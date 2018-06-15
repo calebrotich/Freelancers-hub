@@ -1,0 +1,226 @@
+/*index page*/
+@media only screen and (max-width: 800px)  {
+.face {
+  display: none;
+}
+.face_small {
+margin-top: 80px;
+display: block;
+background-color: #009933;
+text-align: center;
+padding: 10px;
+}
+.face_small h3 {
+  color: white !important;
+
+}
+.face_small .btn {
+  border-color: white !important;
+}
+
+}
+@media only screen and (min-width: 801px) {
+  .face_small {
+    display: none;
+  }
+}
+
+      .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #009933;
+}
+
+.carousel-indicators li {
+    border-color: #009933;
+}
+
+.carousel-indicators li.active {
+    background-color: #009933;
+}
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+    color: black;
+}
+
+.item span {
+    font-style: normal;
+}
+.title {
+  color: #009933;
+}
+hr {
+  width: 80%;
+}
+#contact {
+  height: 500px;
+  margin: auto;
+
+}
+.dopanels {
+  height: 500px;
+  margin-top: 50px;
+}
+div.say {
+  margin: 20px auto;
+}
+
+
+/*navbars*/
+.motto {
+    font-size: 11pt;
+  }
+  #face {
+  position: relative;
+    max-height: 590px;
+    width: 100%;
+    background-color: black;
+  }
+  .faceimage {
+    max-height:590px;
+  }
+  .navbar {
+  
+    margin-bottom: 0px;
+  }
+  nav a, .navbar-brand {
+      color: #009933 !important;
+  }
+  
+  nav a:hover, .navbar-brand:hover {
+    color: white !important;
+  }
+  .backtop {
+     position: fixed;
+        bottom: 20em;
+        right: 5px;
+        text-decoration: none;
+  background-color:rgba(244, 81, 30, 0.8) !important;
+  color: white !important;
+        font-size: 12px;
+        padding: 1em;
+  display: none;
+  }
+  .backtop:hover {
+    color: #009933 !important;
+    background-color: white !important;
+  }
+  li:hover {
+    background-color: #009933 !important;
+  }
+  
+  
+  .imagetop {
+    position: absolute;
+    left: 40%;
+    top:60%;
+  }
+  .texttop {
+    color: #009933;
+    position: absolute;
+    left: 35%;
+    top:10%;
+  }
+  .icon {
+    margin-top: 0px;
+    height: 80px !important;
+    width: 80px !important;
+  }
+  h4 {
+    color: White;
+  }
+  h3 {
+    color: #009933;
+  }
+  .btn {
+    max-width: 150px;
+    background-color: #009933 !important;
+    color: white !important;
+    border: solid 1px #009933 !important;
+  }
+  .btn:hover {
+    background-color: white !important;
+    color: #009933 !important;
+    border-color: #009933 !important;
+  }
+  .descriptor {
+    font-size: 20px;
+  }
+  
+  .panel-body {
+    height: 250px;
+  }
+  .panel-heading {
+    background-color: #009933;
+    color: white;
+  }
+  .panel-footer {
+    background-color: #f3f3f3;
+    color: white;
+  
+  }
+  .dopanels {
+    background-color:#f2f2f2;
+  
+  }
+  .basic {
+    background-color: #993333!important;
+    color: white !important;
+  }
+  .golden {
+    background-color: #ff9900 !important;
+    color:white !important;
+  }
+  .silver {
+    background-color: #999966!important;
+    color: white !important;
+  }
+  .panbasic,.pansilver {
+    margin-top: 30px
+  }
+  
+  footer {
+    background-color: rgba(244, 81, 30, 0.7);
+  
+    padding: 20px;
+  }
+  .gly {
+    font-size: 50px;
+    color: #009933;
+  }
+  .glyp {
+      color: #009933;
+  }
+  .glyphicon-arrow-up {
+    font-size: 40px;
+  
+  
+  }
+  p {
+    font-size: 20px;
+  }
+  span.navs {
+    font-size: 15px;
+  }
+  .dropdown-menu li a:hover {
+    background-color: #009933 !important;
+  }
+  nav a:hover {
+    color: white !important;
+    background-color: #009933 !important;
+  }
+  #dropit {
+    text-align: center;
+  }
+  #dropit:hover  .dropdown-menu {
+    color:white;
+  }
+  div#jobswill {
+    font-size: 20px;
+    color: #009933 !important;
+  }
+  
