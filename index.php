@@ -91,71 +91,7 @@
             <p><h4>It's easy, Simply post a job need completed and receive competitive bids from freelancers within minutes.</h4></p>
         </div>
       </div>
-      <!--Showcase-->
-      <!--div class="showcase block block-border-bottom-grey">
-        <div class="container">
-          <h2 class="block-title">
-            Events
-          </h2>
-          <div class="item-carousel" data-toggle="owlcarousel" data-owlcarousel-settings='{"items":4, "pagination":false, "navigation":true, "itemsScaleUp":true}'>
-            <div class="item">
-              <a href="#" class="overlay-wrapper">
-                <img src="img/project11.png" alt="Project 11 image" class="img-responsive underlay">
-                <span class="overlay">
-                  <span class="overlay-content"> <span class="h4">Photoshoot </span> </span>
-                </span>
-              </a>
-              <div class="item-details bg-noise">
-                <h4 class="item-title">
-                  <a href="#">Event 1</a>
-                </h4>
-                <a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a>
-              </div>
-            </div>
-            <div class="item">
-              <a href="#" class="overlay-wrapper">
-               <img src="img/project11.png" alt="Project 11 image" class="img-responsive underlay">
-                <span class="overlay">
-                  <span class="overlay-content"> <span class="h4">Birthday</span> </span>
-                </span>
-              </a>
-              <div class="item-details bg-noise">
-                <h4 class="item-title">
-                  <a href="#">Event 2</a>
-                </h4>
-                <a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a>
-              </div>
-            </div>
-            <div class="item">
-              <a href="#" class="overlay-wrapper">
-                <img src="img/project11.png" alt="Project 11 image" class="img-responsive underlay">
-                <span class="overlay">
-                  <span class="overlay-content"> <span class="h4">Wedding</span> </span>
-                </span>
-              </a>
-              <div class="item-details bg-noise">
-                <h4 class="item-title">
-                  <a href="#">Event 3</a>
-                </h4>
-                <a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a>
-              </div>
-            </div>
-            <div class="item">
-              <a href="#" class="overlay-wrapper">
-                <img src="img/project11.png" alt="Project 11 image" class="img-responsive underlay">
-                <span class="overlay">
-                  <span class="overlay-content"> <span class="h4">Graduation</span> </span>
-                </span>
-              </a>
-              <div class="item-details bg-noise">
-                <h4 class="item-title">
-                  <a href="#">Event 4</a>
-                </h4>
-                <a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a>
-              </div>
-            </div>
-        </div>
-      </div-->
+
       <div class="services block block-bg-gradient block-border-bottom">
         <div class="container">
           <h2 class="block-title">
@@ -201,17 +137,6 @@
           </div>
         </div>
       </div>
-    <div class="block block-pd-sm block-bg-grey-light block-bg-overlay block-bg-overlay-6 text-center" data-block-bg-img="https://picjumbo.imgix.net/HNCK1088.jpg?q=40&amp;w=1650&amp;sharp=30" data-stellar-background-ratio="0.3">
-      <h2 class="h-xlg h1 m-a-0">
-        <span data-counter-up>3M+</span>Users
-      </h2>
-      <h3 class="h-lg m-t-0 m-b-lg">
-        Of Happy Clients!
-      </h3>
-      <p>
-        <a href="#" class="btn btn-more btn-lg i-right">Join Freelancer Now! <i class="fa fa-angle-right"></i></a>
-      </p>
-    </div>
       </div>
   </div>
 
