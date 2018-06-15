@@ -53,11 +53,11 @@
   </div>
   </div>
 
-<div class="container face_small">
+<!-- <div class="container face_small">
   <h3>WELCOME TO EAGLE LENS</h3>
   <a class="btn btn-default btn-lg" href="login/reg.php">REGISTER</a>
   <a class="btn btn-default btn-lg" href="login/login.php">LOGIN</a>
-</div>
+</div> -->
 <hr>
 <div class="container dopanels text-center">
 

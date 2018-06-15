@@ -6,7 +6,7 @@
 .face_small {
 margin-top: 80px;
 display: block;
-background-color: #f4511e;
+background-color: #009933;
 text-align: center;
 padding: 10px;
 }
@@ -27,15 +27,15 @@ padding: 10px;
 
       .carousel-control.right, .carousel-control.left {
     background-image: none;
-    color: #f4511e;
+    color: #009933;
 }
 
 .carousel-indicators li {
-    border-color: #f4511e;
+    border-color: #009933;
 }
 
 .carousel-indicators li.active {
-    background-color: #f4511e;
+    background-color: #009933;
 }
 
 .item h4 {
@@ -51,7 +51,7 @@ padding: 10px;
     font-style: normal;
 }
 .title {
-  color: #f4511e;
+  color: #009933;
 }
 hr {
   width: 80%;
@@ -88,7 +88,7 @@ div.say {
     margin-bottom: 0px;
   }
   nav a, .navbar-brand {
-      color: #f4511e !important;
+      color: #009933 !important;
   }
   
   nav a:hover, .navbar-brand:hover {
@@ -106,11 +106,11 @@ div.say {
   display: none;
   }
   .backtop:hover {
-    color: #f4511e !important;
+    color: #009933 !important;
     background-color: white !important;
   }
   li:hover {
-    background-color: #f4511e !important;
+    background-color: #009933 !important;
   }
   
   
@@ -120,7 +120,7 @@ div.say {
     top:60%;
   }
   .texttop {
-    color: #f4511e;
+    color: #009933;
     position: absolute;
     left: 35%;
     top:10%;
@@ -134,18 +134,18 @@ div.say {
     color: White;
   }
   h3 {
-    color: #f4511e;
+    color: #009933;
   }
   .btn {
     max-width: 150px;
-    background-color: #f4511e !important;
+    background-color: #009933 !important;
     color: white !important;
-    border: solid #f4511e !important;
+    border: solid 1px #009933 !important;
   }
   .btn:hover {
     background-color: white !important;
-    color: #f4511e !important;
-    border-color: #f4511e !important;
+    color: #009933 !important;
+    border-color: #009933 !important;
   }
   .descriptor {
     font-size: 20px;
@@ -155,7 +155,7 @@ div.say {
     height: 250px;
   }
   .panel-heading {
-    background-color: #f4511e;
+    background-color: #009933;
     color: white;
   }
   .panel-footer {
@@ -190,10 +190,10 @@ div.say {
   }
   .gly {
     font-size: 50px;
-    color: #f4511e;
+    color: #009933;
   }
   .glyp {
-      color: #f4511e;
+      color: #009933;
   }
   .glyphicon-arrow-up {
     font-size: 40px;
@@ -207,11 +207,11 @@ div.say {
     font-size: 15px;
   }
   .dropdown-menu li a:hover {
-    background-color: #f4511e !important;
+    background-color: #009933 !important;
   }
   nav a:hover {
     color: white !important;
-    background-color: #f4511e !important;
+    background-color: #009933 !important;
   }
   #dropit {
     text-align: center;
@@ -221,6 +221,6 @@ div.say {
   }
   div#jobswill {
     font-size: 20px;
-    color: #f4511e !important;
+    color: #009933 !important;
   }
   
