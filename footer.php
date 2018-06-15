@@ -14,9 +14,9 @@
 </style>
 <footer>
   <div class="container text-center">
-    <!--<p>Eagle Lens seeks to magnify your connections just like an actual Lens magnifies</p>
+    <!--<p>Freelancers' Hub seeks to magnify your connections just like an actual Lens magnifies</p>
     <p>Register an account to get started. Interact with other like minded guys</p>-->
     <p>Speak your mind. Just don't abuse.</p>
-<h4>All rights reserved. &copy Eagle Lens</h4>
+<h4>All rights reserved. &copy Freelancers' Hub</h4>
   </div>
 </footer>

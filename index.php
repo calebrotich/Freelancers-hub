@@ -22,7 +22,7 @@
 
       <p>
         <span><img class="navbar-brand icon" src="images/icon.jpg" alt="" />
-        <a href="#" class="navbar-brand"></span>EAGLE LENS<br><span class="motto">Expand your Horizon</span></a>
+        <a href="#" class="navbar-brand"></span>Freelancers' Hub<br><span class="motto">Expand your Horizon</span></a>
       </p>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
@@ -43,7 +43,7 @@
   <div class="container-fluid face" >
   <img class="container-fluid faceimage" id="face" src="images/preflens.jpg" alt="" />
 <div class="texttop text-center">
-  <P><h1>Welcome to EAGLE LENS</h1></P>
+  <P><h1>Welcome to Freelancers' Hub</h1></P>
   <h4>Grow your network</h4>
 </div>
   <div class="imagetop">
@@ -54,7 +54,7 @@
   </div>
 
 <!-- <div class="container face_small">
-  <h3>WELCOME TO EAGLE LENS</h3>
+  <h3>WELCOME TO Freelancers' Hub</h3>
   <a class="btn btn-default btn-lg" href="login/reg.php">REGISTER</a>
   <a class="btn btn-default btn-lg" href="login/login.php">LOGIN</a>
 </div> -->
@@ -171,7 +171,7 @@
       <h4 class="text-center title">CONTACT</h4>
       <div class="row test">
         <div class="col-md-4">
-          <h4 class="title">Contact Eagle Lens</h4>
+          <h4 class="title">Contact Freelancers' Hub</h4>
           <p><span class="glyphicon glyphicon-map-marker title"></span> Nyeri, Kenya</p>
           <p><span class="glyphicon glyphicon-phone title"></span> Phone: +254 732 094 466</p>
         <!--  <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>-->
