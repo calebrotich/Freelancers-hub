@@ -7,7 +7,7 @@ $id = $_SESSION['id'];
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Eagle Lens | Add Photo</title>
+    <title>Freelancers' Hub | Add Photo</title>
     <?php include '../bootstrap.php'; ?>
 
     <link rel="stylesheet" href="../css/navbar.css" media="screen" title="no title" charset="utf-8">
@@ -34,7 +34,7 @@ $id = $_SESSION['id'];
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="#" class="navbar-brand">EAGLE LENS</a>
+          <a href="#" class="navbar-brand">Freelancers' Hub</a>
         </div>
         <div class="navbar-collapse collapse" id="dropit">
           <ul class="nav navbar-nav navbar-right">

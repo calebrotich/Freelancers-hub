@@ -60,7 +60,7 @@ session_start();
 <nav class="navbar navbar-default navbar-fixed-top">
 	<div class="container">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="#">EAGLE LENS</a>
+			<a class="navbar-brand" href="#">Freelancers' Hub</a>
 		</div>
 		<ul class="nav navbar-nav navbar-right">
 			<li><a href="../index.php"><span class="glyphicon glyphicon-home"></span> HOME</a></li>
