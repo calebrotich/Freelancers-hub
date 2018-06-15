@@ -34,7 +34,6 @@
 
 
 	<div class="lgnfrmcvr">
-
 		<div class="form">
 		<h3><span class="glyphicon glyphicon-log-in"></span> Log In</h3>
 		<div class="alert alert-danger" id="error" hidden="hidden" style="color:red">
@@ -54,7 +53,6 @@
 	<div class="form-group log_hold">
 		<input name="submit" type="button" id="login" class="btn btn-md btn-default" value="Log in" />
 	</div>
-
 		</form>
 		<p>Not registered yet? <a href='reg.php'>Register Here</a></p>
 		</div>

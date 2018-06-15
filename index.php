@@ -24,13 +24,10 @@
             <div class="row">
     <div class="container">
             <div class="navbar navbar-default">
-              <!--mobile collapse menu button-->
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-              <!--social media icons-->
-                <ul class="navbar-text user-menu pull-right">
-                <li class="hidden-xs"><i class="fa fa-edit text-primary"></i> <a href="Register.php">Register</a></li>
-                <li class="hidden-xs"><i class="fa fa-sign-in text-primary"></i> <a href="Login.php">Login</a></li>
-              </ul>
+      				<ul class="nav navbar-nav navbar-right">
+      					<li><a href="login/reg.php"><span class="glyphicon glyphicon-sign-up"></span>Register</a></li>
+      					<li><a href="login/login.php"><span class="glyphicon glyphicon-sign-in"></span>Login</a></li>
+      				</ul>
               <!--everything within this div is collapsed on mobile-->
               <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav" id="main-menu">
@@ -204,18 +201,97 @@
           </div>
         </div>
       </div>
-    <div class="block block-pd-sm block-bg-grey-dark block-bg-overlay block-bg-overlay-6 text-center" data-block-bg-img="https://picjumbo.imgix.net/HNCK1088.jpg?q=40&amp;w=1650&amp;sharp=30" data-stellar-background-ratio="0.3">
+    <div class="block block-pd-sm block-bg-grey-light block-bg-overlay block-bg-overlay-6 text-center" data-block-bg-img="https://picjumbo.imgix.net/HNCK1088.jpg?q=40&amp;w=1650&amp;sharp=30" data-stellar-background-ratio="0.3">
       <h2 class="h-xlg h1 m-a-0">
-        <span data-counter-up>1000</span>s
+        <span data-counter-up>3M+</span>Users
       </h2>
       <h3 class="h-lg m-t-0 m-b-lg">
-        Of Happy Customers!
+        Of Happy Clients!
       </h3>
       <p>
-        <a href="#" class="btn btn-more btn-lg i-right">Join them today! <i class="fa fa-angle-right"></i></a>
+        <a href="#" class="btn btn-more btn-lg i-right">Join Freelancer Now! <i class="fa fa-angle-right"></i></a>
       </p>
     </div>
       </div>
   </div>
+
+  <!-- ======== @Region: #footer ======== -->
+    <footer id="footer" class="block block-bg-grey-dark" data-stellar-background-ratio="0.4">
+      <div class="container">
+        <div class="row" id="contact">
+          <div class="col-md-3">
+            <address>
+              <br>
+              <i class="fa fa-map-pin fa-fw text-primary"></i> English-US.
+              <br>
+              <i class="fa fa-phone fa-fw text-primary"></i> Help & Support
+              <br>
+            </address>
+          </div>
+
+          <div class="col-md-3">
+            <h4>Freelancer</h4>
+          </div>
+          <div class="col-md-3">
+            <h4>About</h4>
+            <ul>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h4>Apps</h4>
+            <ul>
+            </ul>
+            <!--social media icons-->
+        <div class="navbar-text social-media social-media-inline">
+          <a href="www.twitter.com"><i class="fa fa-twitter"></i></a>
+          <a href="www.facebook.com"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-google-plus"></i></a>
+        </div>
+          </div>
+
+        </div>
+
+        <div class="row subfooter">
+          <!--@todo: replace with company copyright details-->
+          <div class="col-md-4">
+            <p>30,300,090 Registered Users</p>
+          </div>
+          <div class="col-md-4">
+            <p>10,755,020 Total jobs Posted</p>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline pull-right">
+              <p>Copyright © Freelancers Hub</p>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <a href="#top" class="scrolltop">Top</a>
+
+      </div>
+    </footer>
+
+    <!-- Required JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/stellar/stellar.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="contactform/contactform.js"></script>
+
+    <!-- Template Specisifc Custom Javascript File -->
+    <script src="js/custom.js"></script>
+
+    <!--Custom scripts demo background & colour switcher - OPTIONAL -->
+    <script src="js/color-switcher.js"></script>
+
+    <!--Contactform script -->
+    <script src="contactform/contactform.js"></script>
+
   </body>
 </html>
