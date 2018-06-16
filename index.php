@@ -239,6 +239,11 @@
             </ul>
           </div>
           <div class="col-md-3">
+            <h4>Pay Via Mpesa</h4>
+            <ul>
+            </ul>
+          </div>
+          <div class="col-md-3">
             <h4>Apps</h4>
             <ul>
             </ul>
